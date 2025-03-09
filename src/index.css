@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mobile-nav{
+    @apply fixed top-32 left-0 bg-violet-600 w-full h-1/4;
+}
+.mobile-nav li{
+    @apply border-b-4 text-center h-full;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    gap: 10px;
+    background-color: blueviolet;
+  }
+  
+  .form input, textarea {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .form button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: darkblue;
+  }
+  
